@@ -1,0 +1,54 @@
+# 🚚 Web App per Corrieri – Demo Progetto
+
+Questa è una semplice ma potente web app sviluppata in **PHP** per la gestione delle consegne da parte dei corrieri. Il progetto è stato creato come demo per un’azienda di logistica a **Savona**, con lo scopo di digitalizzare il flusso di consegna, ridurre gli errori e aumentare la tracciabilità in tempo reale.
+
+## 🧰 Funzionalità principali
+
+- Login con ruolo **admin** o **corriere**
+- Visualizzazione ordini assegnati
+- Stato consegna: In attesa / In consegna / Consegnato / Fallita
+- Avvio consegna con orario tracciato
+- Firma digitale o caricamento foto come prova di consegna
+- Dashboard admin con filtri per data, corriere e stato
+- Pannello responsive per tablet e smartphone
+
+---
+
+## 🖼️ Screenshot
+
+### 🔐 Login
+
+![Login](screenshots/Screenshot%202025-04-15%20alle%2014.41.03.png)
+
+---
+
+### 📋 Elenco ordini del corriere
+
+![Ordini](screenshots/Screenshot%202025-04-15%20alle%2014.41.12.png)
+
+---
+
+### 🚦 Cambia stato consegna
+
+![Stato](screenshots/Screenshot%202025-04-15%20alle%2014.41.19.png)
+
+---
+
+### ✍️ Firma digitale
+
+![Firma](screenshots/Screenshot%202025-04-15%20alle%2014.41.34.png)
+
+---
+
+### 📊 Dashboard amministratore
+
+![Admin](screenshots/Screenshot%202025-04-15%20alle%2014.41.41.png)
+
+---
+
+## ⚙️ Requisiti
+
+- Web server con supporto PHP (es. Apache, Nginx)
+- PHP 7.4 o superiore
+- Database MySQL/MariaDB
+- Permessi di scrittura nella cartella `/uploads` per firme e immagini
